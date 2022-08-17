@@ -49,6 +49,12 @@ def register(request):
 
             login(request,new_user)
             return redirect('movies:index')
+<<<<<<< Updated upstream
+=======
+        # else:
+        #     return redirect('accounts:register')
+        # djfhjf
+>>>>>>> Stashed changes
 
     # Display Form filled or invalid
     context = {'form': form, 'user_info_form': user_info_form}
