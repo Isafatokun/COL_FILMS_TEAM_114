@@ -23,7 +23,7 @@ pycparser==2.21
 pydot==1.4.2
 pydotplus==2.0.2
 PyJWT==2.4.0
-pymediainfo==5.1.0
+# pymediainfo==5.1.0
 pyparsing==3.0.9
 pystache==0.6.0
 python-decouple==3.6
@@ -36,7 +36,6 @@ static==1.1.1
 static-ranges==0.2.0
 static3==0.7.0
 tqdm==4.64.0
-tzdata==2022.1
 urllib3==1.26.10
 distlib==0.3.5
 dj-database-url==1.0.0
@@ -52,4 +51,3 @@ pytz==2022.2.1
 sqlparse==0.4.2
 tzdata
 virtualenv==20.16.2
-virtualenv-clone==0.5.7
