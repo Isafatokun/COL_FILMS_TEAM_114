@@ -23,9 +23,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-7wjn62oc!1qm#eb&6(aqh4)hu@cc(h#^b8c7ls+2c7x)34%f#0'
 
+import config
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
-DEBUG = False
+DEBUG =  config('DEBUG')
+
+# os.environ['SECRET_KEY']
 
 ALLOWED_HOSTS = ['varsityvine.herokuapp.com']
 # ALLOWED_HOSTS = ['team114.herokuapp.com', '127.0.0.1']
